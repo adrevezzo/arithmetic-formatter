@@ -133,8 +133,3 @@ def arithmetic_arranger(problems, calculate=False):
         arranged_problems = ''.join(top_row[:-4]) + '\n' + ''.join(mid_row[:-4]) + '\n' + ''.join(equals_line[:-4])
 
     return arranged_problems
-
-
-
-print(arithmetic_arranger(['3 + 855', '988 + 40'], True))
-print('  3801      123\n-    2    +  49\n------    -----')
